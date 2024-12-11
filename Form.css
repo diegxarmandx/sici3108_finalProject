@@ -1,0 +1,61 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+}
+p{
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.homePageHeader p{
+  color: white;
+  font-family:"Inter", sans-serif;
+  font-weight: bolder;
+  font-size: x-large;
+  padding-left: 15px;
+}
+.nav-item a{
+  color: white;
+  margin-top: -3em;
+  font-family: "Inter", sans-serif;
+}
+.navbar a:hover {  /* hover effect*/
+background-color: #575757;
+border-radius: 5px;
+color: white;
+transition: 0.5s;
+}
+h1{
+  color: white;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+label{
+  color: white;
+  font-family:"Inter", sans-serif;
+  font-weight: bolder;
+  font-size: large;
+  padding-left: 15px;
+}
+
+.submit-btn {
+  background-color: black;
+  color: white;
+  font-size: 1.25rem; /* Enlarges the button text */
+  padding: 10px 30px; /* Enlarges the button size */
+  border: 2px solid green; /* Adds a visible border */
+}
+.submit-btn:hover {
+  background-color: green;
+  color: white;
+  border-color: white;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}

@@ -1,0 +1,104 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  height: 100vh;
+  width: 100%;
+}
+p{
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h3{
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+.homePageHeader p{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: x-large;
+  padding-left: 15px;
+}
+nav {
+  top: 0;
+  width: 100%;
+  z-index: 1030; /* Ensures it stays above other content */;
+}
+.navbar-nav a{
+    color: white;
+    margin-top: -3em;
+    font-family: "Inter", sans-serif;
+}
+.navbar a:hover {
+  background-color: #575757;
+  border-radius: 5px;
+  color: white;
+  transition: 0.5s;
+}
+
+.title{
+  font-size: 3.5em;
+  color: white;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+.sportingText{
+  color: white;
+  line-height: 30px;
+}
+.SportingPic img{
+  border-radius: 5px;
+}
+
+.ManchesterText{
+  color: white;
+  line-height: 30px;
+}
+.manchesterPic img{
+  border-radius: 5px;
+}
+.madridText{
+  color: white;
+  line-height: 30px;
+}
+.madridPic img{
+  border-radius: 5px;
+  height: 300px;
+}
+
+.juventusText{
+  color: white;
+  line-height: 30px;
+}
+.juventusPic img{
+  border-radius: 5px;
+}
+.manUText{
+  color: white;
+  line-height: 30px;
+}
+.manUPic img{
+  border-radius: 5px;
+}
+
+.alnassrText{
+  color: white;
+  line-height: 30px;
+}
+.alnassrPic img{
+  border-radius: 5px;
+}
+/* return to nav css */
+.navIcon{ 
+  width: 20px;
+  height: 20px;
+  position: fixed;
+  bottom: 10px;
+  right: 5px;
+}
